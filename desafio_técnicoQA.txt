@@ -1,0 +1,43 @@
+Caso de uso:
+Candidatura espontânea
+
+Descrição:
+O caso se inicia quando o canditado acessa o site e clica no botão candidatura espontânea
+
+Atores:
+Candidato
+
+Garantia de sucesso:
+Candidatura efetuada
+
+Fluxo básico:
+1. canditado acessa o site e clica no link "candidatura espontânea"
+2. cadidato preenche os campos obrigatórios
+3. cadidato marca os checkboxes de processamento de informações pessoais
+	3.1 para integração do candidato nos processos de recrutamento
+	3.2 para o envio de comunicações por e-mail
+4. cadidato marca o checkbox de aceite da política de privacidade
+5. cadidato marcha o captcha de identificação
+6. candidato clica no botão enviar
+
+
+Plano de teste - efetuar uma candidatura espontânea
+Acessar o site aubay.pt - acesso efetuado com sucesso,
+Clicar no link: candidatura espontânea - página acessada com sucesso,
+Preencher os campos obrigatórios - campos preenchidos corretamente,
+Marcar o checkbox processamento de informações pessoais - checkbox marcado,
+Marcar o checkbox de politica de privacidade - checkbox marcado,
+Marcar o captcha de identificação de humano - captcha marcado com sucesso,
+Clicar no botão enviar - candidatura enviada com sucesso
+
+Casos de testes
+-validar campos obrigatórios,
+-validar tamanho do campo nome
+-validar tamanho do campo e-mail
+-validar tecnologia disponível,
+-enviar candidatura com linkedin
+-enviar candidatura com numéro máximo de tecnologias
+
+
+Bugs:
+-Não é possível adicionar uma tecnologia - médio
